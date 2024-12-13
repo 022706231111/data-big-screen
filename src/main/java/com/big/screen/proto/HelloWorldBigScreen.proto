@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.big.screen.proto";
+option java_outer_classname = "HelloWorldBigScreenStruct";
+
+message HelloWorldBigScreen {
+
+  string content = 1;
+
+}

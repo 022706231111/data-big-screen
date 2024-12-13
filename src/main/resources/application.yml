@@ -1,0 +1,15 @@
+env:
+  active: test
+
+server:
+  port: 8443
+  path: /webSocket
+
+dataSource:
+  initialSize: 5
+  minIdle: 10
+  maxActive: 20
+  maxWait: 60000
+  timeBetweenEvictionRunsMillis: 60000
+  minEvictableIdleTimeMillis: 300000
+  maxEvictableIdleTimeMillis: 900000
